@@ -256,7 +256,7 @@ if (urlParams) {
                       </div>
                       <div class="col-2">
                         <div class="celula texto">
-                          R$
+                          <!--R$-->
                           ${(typeof item.valor === 'number' ? formatNumber(item.valor) : '')}
                         </div>
                       </div>
@@ -276,7 +276,7 @@ if (urlParams) {
                   </div>
                   <div class="col-2">
                     <div class="celula">
-                      ${(subtotal ? `R$ ${formatNumber(subtotal)}` : '&nbsp;')}
+                      ${(subtotal ? `${formatNumber(subtotal)}` : '&nbsp;')}
                     </div>
                   </div>
                 </div>
