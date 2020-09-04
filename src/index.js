@@ -98,6 +98,7 @@ if (urlParams) {
                 <strong style="background-color: #000; color: white; display: inline-block; padding: 2px 20px;">
                   ENTREGA NO VIZINHO AUTORIZADA?
                 </strong>
+                <br>
                 Entrega no vizinho não autorizada
               </div>
             </div>
