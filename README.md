@@ -19,6 +19,7 @@ Os pedidos deverão ser especificados em JSON pelo parâmetro de URL `pedido`, c
   "desEndereco": "Av. Mil, 1223, Jardim Dois Mil",
   "desLinha2": "",
   "desCidade": "Belo Horizonte",
+  "desBairro": "Centro",
   "desUf": "MG",
   "desCep": "300000-000",
   "desDoc": "02334567890",

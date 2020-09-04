@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <style>
+      body {
+        -webkit-print-color-adjust: exact !important;
+      }
       .declaracao {
         font-size: 16px;
         line-height: 26px;
@@ -27,9 +30,18 @@
         padding-right: 2px;
         padding-left: 2px;
       }
+
       .linha {
         margin-top: 4px;
       }
+
+      .assinatura {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        border-bottom: 2px solid #333;
+      }
+
       .bloco {
         border: 3px solid #333;
         height: 100%;
@@ -38,7 +50,7 @@
         width: 100%;
       }
       .celula {
-        border: 1px solid #333;
+        /* border: 1px solid #333; */
         border-bottom: none;
         text-align: left;
         padding: 0 3px;
